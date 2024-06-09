@@ -1,0 +1,25 @@
+
+#all-carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carre{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.background-carre{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 20px auto;
+    font-size: 20px;
+    color: white;
+}
