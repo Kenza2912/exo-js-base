@@ -1,0 +1,52 @@
+#main{
+    display: flex;
+}
+
+.follow h2{
+    text-align: center;
+    color: white;
+}
+.follow{
+    background-color: rgba(128, 128, 128, 0.788);
+    width: 400px;
+    height: 200px;
+}
+
+.icones{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.carre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icones a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+.nom-reseau{
+    color: rgba(255, 255, 255, 0.781);
+    margin: 0;    
+    visibility: hidden;
+}
+
+
+
+.box-clicked{
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    
+}
+
